@@ -108,10 +108,11 @@ ion-icon {
     flex-direction: column;
     list-style: none;
     margin-top: 20px;
-    gap: 5px;
+    gap: 15px;
 }
 
-.icon_list_element a {
+.icon_list_element a,
+.icon_list_element div {
     overflow-x: hidden;
     width: 100%;
     display: flex;

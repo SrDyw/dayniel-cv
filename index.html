@@ -58,22 +58,22 @@
                 <h2>Contactame</h2>
                 <ul class="icon_list">
                     <li class="icon_list_element">
-                        <a href="https://www.linkedin.com/in/mdk-gd-389911276">
+                        <a href="https://www.linkedin.com/in/mdk-gd-389911276" target="_blank">
                             <span><ion-icon name="logo-linkedin"></ion-icon></span>
                             <span>Linkedin</span>
                         </a>
                     </li>
                     <li class="icon_list_element">
-                        <a href="">
+                        <div href="" class="preventDefault" onclick="copyToClipboard('+53 55390832')">
                             <span><ion-icon name="logo-whatsapp"></ion-icon></span>
                             <span>+53 55390832</span>
-                        </a>
+                        </div>
                     </li>
                     <li class="icon_list_element">
-                        <a href="" id="mail">
+                        <div href="" id="mail" class="preventDefault" onclick="copyToClipboard('mdayniel642@gmail.com')">
                             <span><ion-icon name="mail-outline"></ion-icon></span>
                             <span style="font-size: small;" id="mail_url">mdayniel642@gmail.com</span>
-                        </a>
+                        </div>
                     </li>
                 </ul>
             </div>
@@ -146,6 +146,8 @@
                 </ul>
             </div>
         </section>
+
+        <div class="clipboard_alert">Copiado</div>
     </div>
 
     <script src="js/index.js"></script>

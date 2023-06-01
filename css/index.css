@@ -52,6 +52,31 @@ body {
 }
 
 
+.clipboard_alert {
+    position: fixed;
+    bottom: 10px;
+    z-index: 100;
+    padding: 10px 20px;
+    background-color: #0000009c;
+    color: white;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+
+.clipboard_alert.animation {
+    animation: clipboard forwards ease 2s;
+}
+
+@keyframes clipboard {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
 /** ================================== */
 /* .image_content::before,
 .image_content::after {
