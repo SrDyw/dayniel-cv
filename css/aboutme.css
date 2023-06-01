@@ -1,0 +1,121 @@
+@import url('index.css');
+
+/** ================================== */
+/** ABOUT ME  */
+/** ================================== */
+
+.about_me {
+    background-color: var(--about-color);
+    position: relative;
+
+    display: grid;
+    grid-template-rows: 0.75fr 0.75fr 0.5fr;
+}
+
+.close_datails {
+    position: relative;
+    /* background-color: violet; */
+}
+
+.close_datails h1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 70px;
+    color: var(--text-header-about-color);
+}
+
+
+.close_datails span {
+    font-size: medium;
+}
+
+.image_content {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    border: 10px solid var(--about-color);
+}
+
+.download_link {
+    position: absolute;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 5px;
+    text-decoration: none;
+    color: var(--text-about-color);
+    font-weight: bold;
+    font-size: small;
+    left: 5px;
+    top: 10px
+}
+
+ion-icon {
+    color:var(--text-about-color);
+    text-align: center;
+    --ionicon-stroke-width: 50px;
+}
+
+
+.skills_details {
+    /* background-color: red; */
+    padding: 0 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.skills_list {
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.skills_list_element h4{
+   width: 150px; 
+   display: inline-block;
+   color:var(--text-about-color);
+}
+
+.skills_list_element ion-icon {
+    color:var(--text-about-color);
+    text-align: center;
+    --ionicon-stroke-width: 50px;
+}
+
+.contact_details {
+    /* background-color: red; */
+    padding: 0 20px;
+}
+
+.contact_details h2{
+    color: var(--text-header-about-color);
+    margin-top: 10px;
+}
+
+
+.icon_list {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 20px;
+    gap: 5px;
+}
+
+.icon_list_element {
+}
+
+
+.icon_list_element span{
+    color: var(--text-about-color);   
+    font-weight: bold;
+}

@@ -1,0 +1,65 @@
+@import url('index.css');
+
+
+.title {
+    width: calc(100% - var(--title-margin));
+    padding: 10px;
+    margin-left: var(--title-margin);
+    box-sizing: border-box;
+    font-weight: bold;
+    color: var(--content-text-header-color);
+    position: relative;
+    /* text-decoration: underline;
+    text-decoration-color: var(--content-text-header-color); */
+    
+}
+
+.title::before {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: var(--content-text-header-color);
+    left: -10px;
+    bottom: -10px;
+    transform: translateY(-70%);
+}
+
+.title::after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 250px;
+    height: 2px;
+    background-color: var(--content-text-header-color);
+    left: 0;
+    bottom: 10px;
+}
+
+.content {
+    background-color: var(--content-color);
+    display: grid;
+    grid-template-rows: 0.3fr;
+    padding: 5px;
+}
+
+.content p {
+    font-size: 12px;
+}
+.experience {
+    /* background-color: red; */
+}
+
+.list {
+    list-style: none;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.highlight {
+    font-weight: bold; 
+    color: #424242;
+}
