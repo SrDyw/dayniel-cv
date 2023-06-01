@@ -16,9 +16,10 @@
     --text-about-color: #bbbbbb; /* 6dacff */
     --text-header-about-color: #eeff00;
     --about-color: #141414; /* 282544 */
-    --content-color: #dedede; /* 0f0d1a */
-    --content-text-header-color: #dcdc00;
+    --content-color: #ffffff; /* 0f0d1a */
+    --content-text-header-color: #ff9100;
     --content-text-color: #141414;
+    --body-color: #e4e4e4;
 }
 
 
@@ -35,6 +36,7 @@ body {
     
     max-height: 100vh;
     box-sizing: border-box;
+    background-color: var(--body-color);
 }
 
 .container {
@@ -49,6 +51,7 @@ body {
 
     display: grid;
     grid-template-columns: 0.6fr 1fr;
+    box-shadow: 10px 10px 20px #00000018;
 }
 
 
