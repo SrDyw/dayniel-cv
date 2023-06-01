@@ -1,0 +1,38 @@
+@media screen and (max-width:600px) {
+    .container {
+        grid-template-columns: 1fr 0.5fr;
+    }
+    /** ABOUT ME  */
+    .about_me {
+        grid-template-rows: 0.5fr 0.25fr 0.5fr ;
+    }
+    /** CLOSE DETAILS  */
+    .close_datails {
+        flex-direction: column;
+        justify-content: center !important;
+        align-items: center;
+    }
+    .close_datails h1 {
+        text-align:center;
+        margin: 0;
+    }
+    .image_content {
+        position: relative;
+        top: 0;
+        transform: translate(0, 0);
+    }
+
+    /** CONTENT  */
+    .title {
+        width: 100% ;
+        margin: 10px;
+        font-size: 20px;
+    }
+    .title::after{
+        width: 100px
+    }
+    .list {
+        margin: 0;
+    }
+
+}

@@ -111,7 +111,12 @@ ion-icon {
     gap: 5px;
 }
 
-.icon_list_element {
+.icon_list_element a {
+    overflow-x: hidden;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 5px;
 }
 
 
