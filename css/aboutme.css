@@ -39,6 +39,15 @@
     top: 50%;
     transform: translate(50%, -50%);
     border: 10px solid var(--about-color);
+    overflow: hidden;
+}
+
+.image_content img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    object-fit: cover;
 }
 
 .download_link {
@@ -124,4 +133,16 @@ ion-icon {
 .icon_list_element span{
     color: var(--text-about-color);   
     font-weight: bold;
+}
+
+.icon_blue {
+    color: #6b6bf8;
+}
+
+.icon_green {
+    color: #6bf89a;
+}
+
+.icon_red {
+    color: #f8746b;
 }

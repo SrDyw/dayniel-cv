@@ -1,11 +1,6 @@
 const id_mail = document.getElementById("mail");
 const download_link = document.querySelector(".download_link");
 
-download_link.addEventListener("click", (e) => {
-    e.preventDefault();
-    html2pdf(document.getElementById("id_container"));
-});
-
 const preventDefault = document.querySelectorAll("preventDefault");
 
 preventDefault.forEach((element) => {

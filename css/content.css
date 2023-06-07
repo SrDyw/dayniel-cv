@@ -21,7 +21,7 @@
     width: 20px;
     height: 20px;
     background-color: var(--content-text-header-color);
-    left: -10px;
+    left: -11px;
     bottom: -10px;
     transform: translateY(-70%);
 }
