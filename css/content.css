@@ -18,12 +18,13 @@
     content: '';
     display: inline-block;
     position: absolute;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     background-color: var(--content-text-header-color);
-    left: -11px;
+    left: -14px;
     bottom: -10px;
     transform: translateY(-70%);
+    border-radius: 50%;
 }
 
 .title::after {
@@ -31,10 +32,10 @@
     display: inline-block;
     position: absolute;
     width: 250px;
-    height: 2px;
+    height: 3px;
     background-color: var(--content-text-header-color);
     left: 0;
-    bottom: 10px;
+    bottom: 6px;
 }
 
 .content {
